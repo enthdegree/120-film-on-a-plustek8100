@@ -1,6 +1,6 @@
 # 120 Scanning on a Plustek 8100 
 
-> In the Winter of 2021 I devised a method for scanning 120 film on a Plustek 8100. Although the method has severe shortcomings it got some recognition and I still occasionally receive emails about it. A few months ago I posted some words on the topic [on the orange site](https://news.ycombinator.com/item?id=42308234#42311993). Others in the thread seem to have found more successful approaches. Nonetheless, in case anyone wants to continue the Plustek 8100 work I have included it here on Github. If this is you, maybe the first thing you should do is ignore this dreary note! Good luck! :) 
+> In the Winter of 2021 I devised a method for scanning 120 film on a Plustek 8100. Although the method has severe shortcomings it got some recognition and I still occasionally receive emails about it. A few months ago I posted some words on the topic [on the orange site](https://news.ycombinator.com/item?id=42308234#42311993). Others in the thread seem to have found more successful approaches. Nonetheless, in case anyone wants to continue the Plustek 8100 work I have re-published it here on Github. If this is you, maybe the first step is to erase this dreary note! Good luck! :) 
 
 - *Christian Chapman, 1/24/2025*
 
