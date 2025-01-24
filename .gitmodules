@@ -1,0 +1,3 @@
+[submodule "code/sane-backends"]
+	path = code/sane-backends
+	url = https://github.com/enthdegree/sane-backends
