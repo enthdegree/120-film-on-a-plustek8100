@@ -1,6 +1,12 @@
 # 120 Scanning on a Plustek 8100 
 
-> In the Winter of 2021 I devised a method for scanning 120 film on a Plustek 8100. Although the method has severe shortcomings it got some recognition and I still occasionally receive emails about it. A few months ago I posted some words on the topic [on the orange site](https://news.ycombinator.com/item?id=42308234#42311993). Others in the thread seem to have found more successful approaches. Nonetheless, in case anyone wants to continue the Plustek 8100 work I have re-published it here on Github. If this is you, maybe the first step is to erase this dreary note! Good luck! :) 
+> In the Winter of 2021 I devised a method for scanning 120 film on a Plustek 8100. Although the method has severe shortcomings it got some recognition and I still occasionally receive emails about it.
+> This is an extremely proof-of-concept type effort and it is nowhere near developed enough for general use.
+> The amount of technical understanding and patience required to perform this process is extreme and you could break your scanner in the process.
+> If you don't understand any of the steps here you probably should not attempt this.
+> As an alternative, a few months ago I posted some words on the topic [on the orange site](https://news.ycombinator.com/item?id=42308234#42311993). Others in the thread seem to have found more successful approaches.
+>
+> Nonetheless, in case anyone wants to continue the Plustek 8100 work I have re-published it here on Github. If this is you, maybe the first step is to erase this dreary note! Good luck! :) 
 
 - *Christian Chapman, 1/24/2025*
 
@@ -11,7 +17,7 @@ It produces much nicer scans than most flatbed-type scanners, but it can only ca
 In this page I show how to modify a Plustek 8100 to scan medium format (120 film) by stitching together multiple scan sweeps. 
 The motivation for this is that medium format film scanners tend to be rare and expensive, and this modified scanner can get you comparable results.
 
-A single 6×7 frame takes around 6 minutes to capture at the scanner's highest resolution setting, so this method is around as convenient as [SLR scanning](http://natephotographic.com/dslr-film-scanning-perfect-color-negatives/) but without the setup and focusing hassle. 
+A single 6×7 frame takes around 6 minutes to capture at the scanner's highest resolution setting, not counting all the post-processing. 
 This mod also lets you capture 35mm film including sprocket borders like this: [Link to example (not mine)](https://assets.community.lomography.com/bb/e70cb4366cf12652753c46bb747129e4ef0608/1216x821x2.jpg?auth=5bc244b9d1e883add291ea8a5ce2ab082d427a14). 
 Two changes are involved:
 
@@ -19,7 +25,6 @@ Two changes are involved:
  - Replace a part on the film carriage with one that avoids the scan head's field of view.
 
 Most of this post likely applies identically to Plustek scanners of a similar build (7200, 7400, 7600i, 8200i) but I can't test this.
-
 Here's a 6×7 scan I produced: 
 
 ![A darktable inversion of a 6×7 scan at 3600 ppi](images/benches.jpeg)
