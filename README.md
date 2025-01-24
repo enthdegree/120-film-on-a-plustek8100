@@ -32,6 +32,13 @@ No longer, thanks to a recent update to the `sane-genesys` backend ([Link to git
 With this software, all that is needed to make the 8100 perform longer sweeps is to change some values in the source.
 The necessary changes are in a github repository: [enthdegree/sane-backends](code/sane-backends) 
 Only the `genesys` backend needs to be compiled. See the repo's `README.md` for compilation instructions.
+We can now sweep the scan head further across the film: 
+
+```
+/path/to/compiled/xsane/bin/scanimage --mode Color --resolution 3600 -y 40 -t 8 -o output.tiff
+```
+
+Be careful with the `-y -t` numbers as too large and the scan head will collide.
 
 A single medium format frame must be scanned at least 4 times and then stitched: once for each quadrant. 
 An interface for this process is here: [plustek120.sh](code/plustek120.sh) 
