@@ -1,10 +1,10 @@
-## 120 Scanning on a Plustek 8100 
+# 120 Scanning on a Plustek 8100 
 
-> In the winter of 2021 I devised a method for scanning 120 film on a Plustek 8100. Although the method has severe shortcomings it got some recognition and I still occasionally receive emails about it. A few months ago I posted some words on my current thoughts on film scanning [here](https://news.ycombinator.com/item?id=42308234#42311993). Others in the thread seem to have found more successful approaches. Nonetheless, in case anyone wants to continue this work I have now included it here on Github.
+> In the Winter of 2021 I devised a method for scanning 120 film on a Plustek 8100. Although the method has severe shortcomings it got some recognition and I still occasionally receive emails about it. A few months ago I posted some words on the topic [on the orange site](https://news.ycombinator.com/item?id=42308234#42311993). Others in the thread seem to have found more successful approaches. Nonetheless, in case anyone wants to continue the Plustek 8100 work I have included it here on Github. If this is you, maybe the first thing you should do is ignore this dreary note! Good luck! :) 
 
 - *Christian Chapman, 1/24/2025*
 
---
+----------
 
 The Plustek 8100 is a relatively cheap and capable film scanner. 
 It produces much nicer scans than most flatbed-type scanners, but it can only capture small format film. 
@@ -24,7 +24,7 @@ Here's a 6×7 scan I produced:
 
 ![A darktable inversion of a 6×7 scan at 3600 ppi](images/benches.jpeg)
 
-## Software
+# Software
 
 The usual interfaces to this scanner only produce captures of a ~36×24mm region, the usual image surface for 35mm film.
 Up until a few months ago this device was limited to use with expensive proprietary software (SilverFast, VueScan). 
@@ -42,12 +42,12 @@ Something has gone wrong with my used scanner hardware and now it creates really
 In plustek120.sh I include a low-pass filtering to get rid of this. 
 The filter's stop frequency is well beyond the scanner's optical resolution ([Link to filmscanner.info](https://www.filmscanner.info/en/PlustekOpticFilm8100.html)) so there should be no significant loss in suppressing it. 
 
-## Hardware
+# Hardware
 
 The pieces described here are hosted in the [parts/](parts/) folder and also on [Thingiverse](https://www.Thingiverse.com/thing:4726748).
 They were drafted using FreeCAD.
 
-### Carriage Replacement
+## Carriage Replacement
 The film carriage must be modified to enlarge the scanning stage. 
 As it is, the scanner's view is obscured by the carriage for part of the sweep we want. 
 Here a picture of the inside of the device and what needs to be removed: 
@@ -60,23 +60,28 @@ Below is a render of how they fit in mechanically.
 I was conscious of keeping the scan head aperture clean during reassembly. 
 
 ![Render of the modified carriage pieces](images/render.png)
-![Carriage with prototype parts installed](images/replaced carrier uninstalled.jpeg)
-![Reassembly](images/replaced carrier.jpeg)
+![Carriage with prototype parts installed](images/replaced_carrier_uninstalled.jpeg)
+![Reassembly](images/replaced_carrier.jpeg)
 
-### Film Holder
+## Film Holder
 A good film holder hasn't been designed.
 It needs fit in the scanner, keep the film flat and be convenient to reposition.
 The scanner's focus plane seems to lie somewhere between 2 and 3 mm over the carriage floor.
 This is difficult to measure precisely so I correct for this with layers of tape along the bottom of the tray. 
 Broadly I have made three attempts, the first being the most successful:
 
-3D printed snap-fit tray [plustek120_tray.FCStd](parts/plustek120_tray.FCStd):
+### 3D printed snap-fit tray 
+Part file: [plustek120_tray.FCStd](parts/plustek120_tray.FCStd)
+
 ![snap_fit_tray.jpg](images/snap_fit_tray.jpg)
 
-Then die-cuts of this shape: [scan_tray.svg](parts/scan_tray.svg) in both acrylic and aluminum, both which were very awkward to use.
+### Die cut trays
+I also tried die-cutting this shape in acrylic and aluminum: [scan_tray.svg](parts/scan_tray.svg).
+The film would go sandwiched in between.
+Both which were very awkward to use.
 ![acrylic_tray.jpeg](images/acrylic_tray.jpeg) 
 
-## Examples
+# Examples
 
 Here are a few more darktable inversions, (plus some dust, light leaks, missed focus and fingerprints):
 
