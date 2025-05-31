@@ -1,16 +1,15 @@
 # 120 Scanning on a Plustek 8100 
 
-> In the Winter of 2021 I devised a method for scanning 120 film on a Plustek 8100.
-> Although the method has severe shortcomings it got some recognition and I still occasionally receive emails about it.
-> This is an extremely rudimentary proof-of-concept and is nowhere near developed enough for general use.
+> In the Winter of 2021 I devised a method for scanning 120 film on a Plustek 8100..
+> Although it has severe shortcomings it got some recognition and I still get emails about it sometimes.
 > The amount of technical knowledge and patience this approach demands is extreme and it could break your scanner.
-> Nonetheless, in case anyone wants to continue the work I have re-published the effort here.
+> In case anyone wants to continue this work I have re-published the effort here.
 > At this stage the approach would benefit from attention from a mechanical engineer and a frontend developer, both disciplines I don't have time or expertise in.
 > If this is you, maybe the first step is to erase this dreary note! Good luck! :)
 > 
-> If you don't understand any of the steps involved, some other scanning approach would likely be more fruitful.
-> As an alternative, a few months ago I posted some words on the topic [on the orange site](https://news.ycombinator.com/item?id=42308234#42311993).
-> Others in the thread have found more successful SLR-scanning approaches.
+> For normal people, some other scanning approach is likely more fruitful.
+> I posted some words on the topic [on the orange site](https://news.ycombinator.com/item?id=42308234#42311993).
+> Others in that linked thread have found more successful SLR-scanning approaches.
 
 - *Christian Chapman, 1/24/2025*
 
